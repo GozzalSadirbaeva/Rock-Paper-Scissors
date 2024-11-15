@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Faculty Glyphic", serif;
+}
+h1 {
+  text-align: center;
+  margin: 60px;
+  color: red;
+}
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn {
+  background-color: rgb(234, 255, 0);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.img {
+  width: 160px;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+.result {
+  color: rgb(44, 176, 11);
+}

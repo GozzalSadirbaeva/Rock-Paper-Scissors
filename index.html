@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Paper Scissors</h1>
+      <div class="buttons">
+        <button class="btn btn-rock">
+          <img class="img" src="/img/rock.png" alt="" />
+        </button>
+        <button class="btn btn-paper">
+          <img class="img" src="/img/paper.png" alt="" />
+        </button>
+        <button class="btn btn-sc">
+          <img class="img" src="/img/scissors.png" alt="" />
+        </button>
+      </div>
+      <h3>You chose: <span class="you"></span></h3>
+      <h3>Computer chose: <span class="computer"></span></h3>
+      <h3><span class="result"></span></h3>
+    </div>
+    <audio class="lose" src="/img/sadtrombone.swf.mp3"></audio>
+    <audio class="won" src="/img/ba-dum-tss-8279.mp3"></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
