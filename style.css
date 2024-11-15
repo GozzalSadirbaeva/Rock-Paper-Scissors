@@ -9,10 +9,10 @@
   width: 100%;
   margin: 0 auto;
   font-family: "Faculty Glyphic", serif;
+  padding: 60px 0;
 }
 h1 {
   text-align: center;
-  margin: 60px;
   color: red;
 }
 h3 {
@@ -20,21 +20,36 @@ h3 {
   padding-top: 20px;
 }
 .buttons {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .btn {
   background-color: rgb(234, 255, 0);
   border-radius: 20px;
+  overflow: hidden;
   cursor: pointer;
-}
-.img {
   width: 160px;
   height: 150px;
+}
+.img {
+  width: 100%;
+  height: 100%;
   mix-blend-mode: multiply;
 }
 .result {
   color: rgb(44, 176, 11);
+}
+
+@media only screen and (max-width: 1000px) {
+  h3 {
+    font-size: 30px;
+  }
+  .btn {
+    width: 100px;
+    height: 100px;
+  }
 }
